@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import ContactContent from "./component/ContactContent";
-import "./assets/css/style.css";
+import ContactContent from "../../components/ContactContent";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 class Contact extends Component {
   render() {

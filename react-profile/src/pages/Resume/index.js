@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import ResumeContent from "./component/ResumeContent";
-import "./assets/css/style.css";
+import ResumeContent from "../../components/ResumeContent";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 class Resume extends Component {
   render() {

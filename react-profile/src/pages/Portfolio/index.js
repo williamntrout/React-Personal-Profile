@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import PortfolioContent from "./component/PortfolioContent";
-import "./assets/css/style.css";
+import PortfolioContent from "../../components/PortfolioContent";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 class Portfolio extends Component {
   render() {

@@ -1,5 +1,5 @@
-import React from "./node_modules/react";
-import { Link } from "./node_modules/react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function PortfolioContent() {
   return (
@@ -29,7 +29,7 @@ function PortfolioContent() {
                         Weather Dashboard
                       </a>
                       <img
-                        src="./assets/Quiz Game.png"
+                        src="./assets/images/QuizGame.png"
                         className="card-img-top image-fluid"
                         alt="Weather Dashboard Application"
                       />
@@ -53,7 +53,7 @@ function PortfolioContent() {
                         Quiz Game
                       </a>
                       <img
-                        src="./assets/Quiz Game.png"
+                        src="./assets/QuizGame.png"
                         className="card-img-top image-fluid"
                         alt="Quiz Application"
                       />

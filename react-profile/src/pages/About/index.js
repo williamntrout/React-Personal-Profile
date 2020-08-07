@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import AboutContent from "../../components/AboutContent";
-import "./assets/css/style.css";
-
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 class About extends Component {
   handleClick(e) {
