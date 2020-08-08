@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import currentResume from "../images/wtresume.pdf";
 
 function ResumeContent() {
   return (
@@ -9,7 +10,11 @@ function ResumeContent() {
           <div
             id="content-card"
             className="card border-dark"
-            style={{ margin: "1rem" }}
+            style={{
+              height: "calc(100vh - 240px)",
+              marginTop: "10px",
+              marginBottom: "10px",
+            }}
           >
             <div
               className="card-body rounded"
@@ -17,12 +22,14 @@ function ResumeContent() {
             >
               <h3>Resume</h3>
               <hr></hr>
-              <object
-                data="./assets/wtresume.pdf"
-                type="application/pdf"
-                width="800px"
-                height="450px"
-              ></object>
+              <div className="d-flex justify-content-center">
+                <object
+                  data={currentResume}
+                  type="application/pdf"
+                  width="800px"
+                  height="450px"
+                ></object>
+              </div>
             </div>
           </div>
         </content>

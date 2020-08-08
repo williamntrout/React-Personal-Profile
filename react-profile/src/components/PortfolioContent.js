@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import weatherDashboardPic from "../images/WeatherDashboard.png";
+import quizGamePic from "../images/QuizGame.png";
+import workDayPlannerPic from "../images/WorkDayPlanner.png";
+import recipeGeneratorPic from "../images/Project1.png";
+import passWordGeneratorPic from "../images/PassWordGenerator.png";
+import seattlePic from "../images/Seattle.jpg";
 
 const portDiv = {
   height: "325px",
@@ -49,7 +55,7 @@ function PortfolioContent() {
                         Weather Dashboard
                       </a>
                       <img
-                        src="./assets/images/QuizGame.png"
+                        src={weatherDashboardPic}
                         className="card-img-top image-fluid"
                         alt="Weather Dashboard Application"
                       />
@@ -73,7 +79,7 @@ function PortfolioContent() {
                         Quiz Game
                       </a>
                       <img
-                        src="./assets/QuizGame.png"
+                        src={quizGamePic}
                         className="card-img-top image-fluid"
                         alt="Quiz Application"
                       />
@@ -96,7 +102,7 @@ function PortfolioContent() {
                         Day Planner
                       </a>
                       <img
-                        src="./assets/workdayplanner.png"
+                        src={workDayPlannerPic}
                         className="card-img-top image-fluid"
                         alt="Workday Planner Application"
                       />
@@ -119,7 +125,7 @@ function PortfolioContent() {
                         Recipe Generator
                       </a>
                       <img
-                        src="./assets/Project 1.png"
+                        src={recipeGeneratorPic}
                         className="card-img-top image-fluid"
                         alt="Recipe Application"
                       />
@@ -142,7 +148,7 @@ function PortfolioContent() {
                         Password Generator
                       </a>
                       <img
-                        src="./assets/PassWordGenerator.png"
+                        src={passWordGeneratorPic}
                         className="card-img-top image-fluid"
                         alt="Password Generator Application"
                       />
@@ -158,7 +164,7 @@ function PortfolioContent() {
                       style={portDiv}
                     >
                       <img
-                        src="./assets/Seattle.JPG"
+                        src={seattlePic}
                         className="card-img-top image-fluid"
                         alt="Seattle"
                       />

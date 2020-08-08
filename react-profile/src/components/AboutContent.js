@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import profilePic from "../images/williamntrout.jpg";
 
 function AboutContent() {
   return (
@@ -23,7 +24,7 @@ function AboutContent() {
               >
                 <p className="float-left">
                   <img
-                    src="../../images/williamntrout.jpg"
+                    src={profilePic}
                     className="image-fluid float-left rounded"
                     alt="responsive image"
                     style={{
