@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import currentResume from "../images/wtresume.pdf";
 
 function ResumeContent() {
@@ -28,7 +27,7 @@ function ResumeContent() {
                   type="application/pdf"
                   width="800px"
                   height="450px"
-                ></object>
+                >ResumePDF</object>
               </div>
             </div>
           </div>

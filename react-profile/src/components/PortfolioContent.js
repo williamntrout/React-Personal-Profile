@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import weatherDashboardPic from "../images/WeatherDashboard.png";
 import quizGamePic from "../images/QuizGame.png";
 import workDayPlannerPic from "../images/WorkDayPlanner.png";
@@ -22,7 +21,6 @@ function PortfolioContent() {
             id="content-card"
             className="card border-dark"
             style={{
-              marginTop: "1rem",
               marginBottom: "3rem",
               borderRadius: ".25rem",
               backgroundColor: "#d9d9d9",
@@ -51,6 +49,7 @@ function PortfolioContent() {
                         className="btn btn-dark btn-lrg"
                         href="https://williamntrout.github.io/weatherdashboard/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Weather Dashboard
                       </a>
@@ -75,6 +74,7 @@ function PortfolioContent() {
                         className="btn btn-dark btn-lrg"
                         href="https://williamntrout.github.io/JavasScriptQuizHomework/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Quiz Game
                       </a>
@@ -98,6 +98,7 @@ function PortfolioContent() {
                         className="btn btn-dark btn-lrg"
                         href="https://williamntrout.github.io/workdayplanner/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Day Planner
                       </a>
@@ -121,6 +122,7 @@ function PortfolioContent() {
                         className="btn btn-dark btn-lrg"
                         href="https://williamntrout.github.io/project-1-refrigerator-companion/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Recipe Generator
                       </a>
@@ -144,6 +146,7 @@ function PortfolioContent() {
                         className="btn btn-dark btn-lrg"
                         href="https://williamntrout.github.io/Password_Generator_Javascript_Exorcise/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Password Generator
                       </a>

@@ -13,12 +13,10 @@ class About extends Component {
 
   render() {
     return (
-      <div>
-        <body style={bg}>
-          <Header />
-          <AboutContent />
-          <Footer />
-        </body>
+      <div style={bg}>
+        <Header />
+        <AboutContent />
+        <Footer />
       </div>
     );
   }

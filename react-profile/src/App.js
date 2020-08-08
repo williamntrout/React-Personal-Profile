@@ -5,8 +5,6 @@ import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
 import Resume from "./pages/Resume/index";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "../src/components/Header";
-import Footer from "../src/components/Footer";
 
 function App() {
   return (

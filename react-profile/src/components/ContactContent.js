@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
-
 
 class ContactContent extends React.Component {
   constructor(props) {

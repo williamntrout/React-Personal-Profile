@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -25,10 +24,18 @@ function Footer() {
           justifyContent: "center",
         }}
       >
-        <a href="https://github.com/williamntrout" target="_blank">
+        <a
+          href="https://github.com/williamntrout"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fab fa-github-square"></i>
         </a>
-        <a href="https://linkedin.com/in/williamntrout" target="_blank">
+        <a
+          href="https://linkedin.com/in/williamntrout"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fab fa-linkedin"></i>
         </a>
       </div>
