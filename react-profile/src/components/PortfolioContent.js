@@ -1,25 +1,45 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+const portDiv = {
+  height: "325px",
+  width: "310px",
+  maxWidth: "310px",
+  float: "left",
+};
 function PortfolioContent() {
   return (
     <div className="container">
-      <div className="row d-flex justify-div-center">
+      <div className="row d-flex justify-content-center">
         <div className="col-10 col-md-10 col-sm-12 col-xs-12">
           <div
-            id="div-card"
+            id="content-card"
             className="card border-dark"
-            style="margin-top: 1rem; margin-bottom: 3rem; border-radius: .25rem; background-color: #d9d9d9;"
+            style={{
+              marginTop: "1rem",
+              marginBottom: "3rem",
+              borderRadius: ".25rem",
+              backgroundColor: "#d9d9d9",
+              height: "calc(100vh - 254px)",
+              marginTop: "10px",
+              overflowY: "scroll",
+            }}
           >
             <div className="card-body">
               <h1>Portfolio</h1>
               <hr></hr>
               <div className="row">
                 <div className="col">
-                  <div id="portfolio-div">
+                  <div
+                    id="portfolio-div"
+                    style={{
+                      height: "calc(100vh - 380px)",
+                      overflowY: "scroll",
+                    }}
+                  >
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
-                      style="max-width: 310px; float: left;"
+                      style={portDiv}
                     >
                       <a
                         className="btn btn-dark btn-lrg"
@@ -43,7 +63,7 @@ function PortfolioContent() {
                     </div>
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
-                      style="max-width: 310px; float: left;"
+                      style={portDiv}
                     >
                       <a
                         className="btn btn-dark btn-lrg"
@@ -66,7 +86,7 @@ function PortfolioContent() {
                     </div>
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
-                      style="max-width: 310px; float: left;"
+                      style={portDiv}
                     >
                       <a
                         className="btn btn-dark btn-lrg"
@@ -89,7 +109,7 @@ function PortfolioContent() {
                     </div>
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
-                      style="max-width: 310px; float: left;"
+                      style={portDiv}
                     >
                       <a
                         className="btn btn-dark btn-lrg"
@@ -112,7 +132,7 @@ function PortfolioContent() {
                     </div>
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
-                      style="max-width: 310px; float: left;"
+                      style={portDiv}
                     >
                       <a
                         className="btn btn-dark btn-lrg"
@@ -135,7 +155,7 @@ function PortfolioContent() {
                     </div>
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
-                      style="max-width: 310px; float: left;"
+                      style={portDiv}
                     >
                       <img
                         src="./assets/Seattle.JPG"

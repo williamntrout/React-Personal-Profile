@@ -4,33 +4,31 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header>
-      <nav class="navbar" style="height: 6rem; background-color: #353535">
-        <div class="container">
-          <div class="navbar-header">
-            <h1
-              style="color:#ebebeb
-                "
-            >
-              William N Trout
-            </h1>
+      <nav
+        className="navbar"
+        style={{ height: "6rem", backgroundColor: "#353535" }}
+      >
+        <div className="container">
+          <div className="navbar-header">
+            <h1 style={{ color: "#ebebeb" }}>William N Trout</h1>
           </div>
-          <nav class="nav d-flex justify-content-end">
-            <a class="nav-link text-white" href="index.html">
+          <nav className="nav d-flex justify-content-end">
+            <a className="nav-link text-white" href="/">
               About
             </a>
-            <a class="nav-link text-white" href="portfolio.html">
+            <a className="nav-link text-white" href="/portfolio">
               Portfolio
             </a>
-            <a class="nav-link text-white" href="contact.html">
+            <a className="nav-link text-white" href="/contact">
               Contact
             </a>
-            <a class="nav-link text-white" href="resume.html">
+            <a className="nav-link text-white" href="/resume">
               Resume
             </a>
           </nav>
         </div>
       </nav>
-      <hr class="new5"></hr>
+      <hr className="new5" style={{border: "8px solid #3c6e71", margin: "0rem"}}></hr>
     </header>
   );
 }

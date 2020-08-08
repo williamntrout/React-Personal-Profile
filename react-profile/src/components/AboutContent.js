@@ -6,20 +6,32 @@ function AboutContent() {
     <div className="container">
       <content className="row d-flex justify-content-center">
         <content className="col-10 col-md-10 col-sm-12 col-xs-12">
-          <div className="card border-dark" style="margin: 1rem">
+          <div className="card border-dark" style={{ margin: "1rem" }}>
             <div
               className="card-body rounded"
-              style="background-color:#D9D9D9;"
+              style={{ backgroundColor: "#D9D9D9" }}
             >
               <h3>About Me</h3>
               <hr></hr>
-              <div id="about-content">
+              <div
+                id="about-content"
+                style={{
+                  height: "calc(100vh - 360px)",
+                  marginTop: "10px",
+                  overflowY: "scroll",
+                }}
+              >
                 <p className="float-left">
                   <img
-                    src="./assets/WIlliamntrout.jpg"
+                    src="../../images/williamntrout.jpg"
                     className="image-fluid float-left rounded"
                     alt="responsive image"
-                    style="max-width: 300px; margin-left: 40px; margin-right: 40px; margin-top: 10px"
+                    style={{
+                      maxWidth: "300px",
+                      marginLeft: "40px",
+                      marginRight: "40px",
+                      marginTop: "10px",
+                    }}
                   />
                   <ul>
                     Though I currently reside in the midwest, I am far from a

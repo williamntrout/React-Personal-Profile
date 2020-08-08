@@ -9,11 +9,11 @@ function ResumeContent() {
           <div
             id="content-card"
             className="card border-dark"
-            style="margin: 1rem"
+            style={{ margin: "1rem" }}
           >
             <div
               className="card-body rounded"
-              style="background-color:#D9D9D9;"
+              style={{ backgroundColor: "#D9D9D9" }}
             >
               <h3>Resume</h3>
               <hr></hr>

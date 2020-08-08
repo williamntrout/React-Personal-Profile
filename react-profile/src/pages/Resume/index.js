@@ -7,7 +7,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <body style="background-color: #284b63;">
+        <body style={{ backgroundColor: "#284b63" }}>
           <Header />
           <ResumeContent />
           <Footer />

@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import AboutContent from "../../components/AboutContent";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-
+const bg = {
+  backgroundColor: "#284b63",
+};
 class About extends Component {
   handleClick(e) {
     e.preventDefault();
@@ -12,7 +14,7 @@ class About extends Component {
   render() {
     return (
       <div>
-        <body style="background-color: #284b63;">
+        <body style={bg}>
           <Header />
           <AboutContent />
           <Footer />

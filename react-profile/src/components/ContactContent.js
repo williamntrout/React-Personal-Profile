@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import emailjs from "emailjs-com";
 class ContactContent extends React.Component {
   constructor(props) {
     super(props);
@@ -19,32 +19,17 @@ class ContactContent extends React.Component {
   }
   sendMessage(event) {
     event.preventDefault();
-    //   if (!this.validateMail()) {
-    // return;
-    //       }
-    //   const templateParams = {
-    //         from_name: this.state.name + " (" + this.state.email + ")",
-    //         to_name: {wherever you are sending the email},
-    //         feedback: this.state.feedback
-    //       };
-    //   emailjs
-    //         .send("gmail", "portfoliositecontact", templateParams, {id given from your EmailJS template})
-    //         .then(
-    //           function(response) {
-    //             toast.success("Your message has successfully sent!", {
-    //               position: toast.POSITION.BOTTOM_CENTER
-    //             });
-    //             console.log("SUCCESS!", response.status, response.text);
-    //           },
-    //           function(err) {
-    //             toast.error("Your message was not able to be sent");
-    //           }
-    //         );
-    //   this.setState({
-    //         name: "",
-    //         email: "",
-    //         feedback: ""
-    //       });
+
+    emailjs
+      .sendForm("troutw5593_gmail_com", "mine", ".this", "troutw5593@gmail.com")
+      .then(
+        (result) => {
+          alert(result);
+        },
+        (error) => {
+          alert(error.text);
+        }
+      );
   }
 
   render() {
@@ -61,23 +46,30 @@ class ContactContent extends React.Component {
             >
               <div
                 className="card border-dark form-group"
-                style="
-                    background-color: #d9d9d9;
-                    margin: 1rem;
-                    border-radius: 0.25rem;
-                  "
+                style={{
+                  backgroundColor: "#d9d9d9",
+                  margin: "1rem",
+                  borderRadius: "0.25rem",
+                }}
               >
                 <element className="card-body controls">
                   <h3>Contact Me Today</h3>
                   <hr />
-                  <div id="contact-card">
+                  <div
+                    id="contact-card"
+                    style={{
+                      height: "calc(100vh - 360px)",
+                      marginTop: "10px",
+                      overflowY: "scroll",
+                    }}
+                  >
                     <element className="row form-group">
                       <label for="contactInputName">
-                        <h5 style="margin-left: 20px;">Your Name:</h5>
+                        <h5 style={{ marginLeft: "20px" }}>Your Name:</h5>
                       </label>
                       <element
                         className="card border-dark ml-3 mb-2"
-                        style="width: 95%;"
+                        style={{ width: "95%" }}
                       >
                         <input
                           id="name"
@@ -91,11 +83,11 @@ class ContactContent extends React.Component {
                     </element>
                     <element className="row form-group">
                       <label for="contactEmailAddress">
-                        <h5 style="margin-left: 20px;">Email Address:</h5>
+                        <h5 style={{ marginLeft: "20px" }}>Email Address:</h5>
                       </label>
                       <element
                         className="card border-dark ml-3 mb-2"
-                        style="width: 95%;"
+                        style={{ width: "95%" }}
                       >
                         <input
                           id="email"
@@ -104,17 +96,16 @@ class ContactContent extends React.Component {
                           placeholder="your email address"
                           required
                           value={this.state.email}
-                          error={this.state.errors.email}
                         />
                       </element>
                     </element>
                     <element className="row form-group">
                       <label for="contactInputMessage">
-                        <h5 style="margin-left: 20px;">Your Message:</h5>
+                        <h5 style={{ marginLeft: "20px" }}>Your Message:</h5>
                       </label>
                       <element
                         className="card border-dark ml-3 mb-3"
-                        style="width: 95%; height: 8rem;"
+                        style={{ width: "95%", height: "8rem" }}
                       >
                         <textarea
                           id="feedback"
@@ -131,7 +122,7 @@ class ContactContent extends React.Component {
                       <button
                         type="submit"
                         className="btn btn-dark btn-lg ml-3"
-                        onClick={this.sendMessage.bind(this)}
+                        onClick={(e) => this.sendMessage(e)}
                       >
                         Submit
                       </button>
