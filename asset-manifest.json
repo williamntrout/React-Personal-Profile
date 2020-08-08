@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/React-Personal-Profile/static/css/main.5f361e03.chunk.css",
-    "main.js": "/React-Personal-Profile/static/js/main.38d1b9c0.chunk.js",
-    "main.js.map": "/React-Personal-Profile/static/js/main.38d1b9c0.chunk.js.map",
+    "main.js": "/React-Personal-Profile/static/js/main.265bf0ea.chunk.js",
+    "main.js.map": "/React-Personal-Profile/static/js/main.265bf0ea.chunk.js.map",
     "runtime-main.js": "/React-Personal-Profile/static/js/runtime-main.cb7fe727.js",
     "runtime-main.js.map": "/React-Personal-Profile/static/js/runtime-main.cb7fe727.js.map",
-    "static/js/2.1908187c.chunk.js": "/React-Personal-Profile/static/js/2.1908187c.chunk.js",
-    "static/js/2.1908187c.chunk.js.map": "/React-Personal-Profile/static/js/2.1908187c.chunk.js.map",
+    "static/js/2.2ef2da02.chunk.js": "/React-Personal-Profile/static/js/2.2ef2da02.chunk.js",
+    "static/js/2.2ef2da02.chunk.js.map": "/React-Personal-Profile/static/js/2.2ef2da02.chunk.js.map",
     "index.html": "/React-Personal-Profile/index.html",
-    "precache-manifest.b01d9bad5dc8f78409e7a6e444951806.js": "/React-Personal-Profile/precache-manifest.b01d9bad5dc8f78409e7a6e444951806.js",
+    "precache-manifest.be1c611286ae3b4c128e2ab22aa4a008.js": "/React-Personal-Profile/precache-manifest.be1c611286ae3b4c128e2ab22aa4a008.js",
     "service-worker.js": "/React-Personal-Profile/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/React-Personal-Profile/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.1908187c.chunk.js.LICENSE.txt": "/React-Personal-Profile/static/js/2.1908187c.chunk.js.LICENSE.txt",
+    "static/js/2.2ef2da02.chunk.js.LICENSE.txt": "/React-Personal-Profile/static/js/2.2ef2da02.chunk.js.LICENSE.txt",
     "static/media/PassWordGenerator.png": "/React-Personal-Profile/static/media/PassWordGenerator.7b34d0c9.png",
     "static/media/Project1.png": "/React-Personal-Profile/static/media/Project1.4f9aff7d.png",
     "static/media/QuizGame.png": "/React-Personal-Profile/static/media/QuizGame.38fc496c.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cb7fe727.js",
-    "static/js/2.1908187c.chunk.js",
+    "static/js/2.2ef2da02.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.38d1b9c0.chunk.js"
+    "static/js/main.265bf0ea.chunk.js"
   ]
 }
