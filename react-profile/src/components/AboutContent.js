@@ -34,21 +34,19 @@ function AboutContent() {
                     }}
                   />
                   <p>
-                    Though I currently reside in the midwest, I am far from a
-                    Kansas City native. As a matter of fact, though I call
-                    Seattle my home, I can hardly be called a "native" of any
-                    one place. I come from a military family that moved around
-                    the globe on a fairly regular basis.
+                    Although I reside in the midwest, I am far from a Kansas
+                    City native, I call Seattle home. Even at that, I can hardly
+                    be called a "native" of any one place. I come from a
+                    military family that moved around the globe on a fairly
+                    regular basis.
                   </p>
                   <p>
                     Many people think I am exaggerating about the number of
-                    times I have moved when the first here me say it. However,
-                    once they hear teh details, they quickly put me in the
-                    "nomad" category. I personally have never lived in a
-                    residence longer than two years my entire life. If we are
-                    being honest, I cannot ever count the number of addresses I
-                    have had. Even when did stay in one place for any period of
-                    time, we moved houses almost annually.
+                    times I have moved until they see the timeline. Upon hearing
+                    the details, they quickly put me in the "nomad" category. I
+                    personally have never lived in a residence longer than two
+                    years and I cannot even count the number of addresses I have
+                    had in my life.
                   </p>
                   <p>
                     This all seemed natural to me as I come from a family with a
@@ -63,10 +61,10 @@ function AboutContent() {
                     person who is flexible, dedicated, adaptive, and open to
                     change. I neither run from change or shy away from adversity
                     regardless of situation. Hence the reason I am participating
-                    in this program. Technology, and the internet in particular,
-                    has cost me several jobs over the years. I finally just
-                    decided to get on top of that wave rather than have it crash
-                    over me again.
+                    in this program. Technology, the internet in particular, has
+                    cost me several jobs over the years. I finally just decided
+                    to get on top of that wave rather than have it crash over me
+                    again.
                   </p>
                   <br></br>
                 </div>
