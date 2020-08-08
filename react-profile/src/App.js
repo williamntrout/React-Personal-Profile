@@ -9,12 +9,22 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div>
-        <Route exact path="/" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/resume" component={Resume} />
-      </div>
+      <Route exact path={process.env.PUBLIC_URL + "/"} component={About} />
+      <Route
+        exact
+        path={process.env.PUBLIC_URL + "/portfolio"}
+        component={Portfolio}
+      />
+      <Route
+        exact
+        path={process.env.PUBLIC_URL + "/contact"}
+        component={Contact}
+      />
+      <Route
+        exact
+        path={process.env.PUBLIC_URL + "/resume"}
+        component={Resume}
+      />
     </Router>
   );
 }
