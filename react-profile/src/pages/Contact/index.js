@@ -6,12 +6,10 @@ import Footer from "../../components/Footer";
 class Contact extends Component {
   render() {
     return (
-      <div>
-        <body style={{ backgroundColor: "#284b63" }}>
-          <Header />
-          <ContactContent />
-          <Footer />
-        </body>
+      <div style={{ backgroundColor: "#284b63" }}>
+        <Header />
+        <ContactContent />
+        <Footer />
       </div>
     );
   }

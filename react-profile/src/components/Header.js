@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -12,22 +13,37 @@ function Header() {
             <h1 style={{ color: "#ebebeb" }}>William N Trout</h1>
           </div>
           <nav className="nav d-flex justify-content-end">
-            <a className="nav-link text-white" href="/">
+            <Link
+              className="nav-link text-white"
+              to={process.env.PUBLIC_URL + "/"}
+            >
               About
-            </a>
-            <a className="nav-link text-white" href="/portfolio">
+            </Link>
+            <Link
+              className="nav-link text-white"
+              to={process.env.PUBLIC_URL + "/portfolio"}
+            >
               Portfolio
-            </a>
-            <a className="nav-link text-white" href="/contact">
+            </Link>
+            <Link
+              className="nav-link text-white"
+              to={process.env.PUBLIC_URL + "/contact"}
+            >
               Contact
-            </a>
-            <a className="nav-link text-white" href="/resume">
+            </Link>
+            <Link
+              className="nav-link text-white"
+              to={process.env.PUBLIC_URL + "/resume"}
+            >
               Resume
-            </a>
+            </Link>
           </nav>
         </div>
       </nav>
-      <hr className="new5" style={{border: "8px solid #3c6e71", margin: "0rem"}}></hr>
+      <hr
+        className="new5"
+        style={{ border: "8px solid #3c6e71", margin: "0rem" }}
+      ></hr>
     </header>
   );
 }

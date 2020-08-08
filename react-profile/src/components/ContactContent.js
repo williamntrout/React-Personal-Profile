@@ -52,7 +52,7 @@ class ContactContent extends React.Component {
                   borderRadius: "0.25rem",
                 }}
               >
-                <element className="card-body controls">
+                <div className="card-body controls">
                   <h3>Contact Me Today</h3>
                   <hr />
                   <div
@@ -63,11 +63,11 @@ class ContactContent extends React.Component {
                       overflowY: "scroll",
                     }}
                   >
-                    <element className="row form-group">
-                      <label for="contactInputName">
+                    <div className="row form-group">
+                      <label form="contactInputName">
                         <h5 style={{ marginLeft: "20px" }}>Your Name:</h5>
                       </label>
-                      <element
+                      <div
                         className="card border-dark ml-3 mb-2"
                         style={{ width: "95%" }}
                       >
@@ -79,13 +79,13 @@ class ContactContent extends React.Component {
                           required
                           value={this.state.name}
                         />
-                      </element>
-                    </element>
-                    <element className="row form-group">
-                      <label for="contactEmailAddress">
+                      </div>
+                    </div>
+                    <div className="row form-group">
+                      <label form="contactEmailAddress">
                         <h5 style={{ marginLeft: "20px" }}>Email Address:</h5>
                       </label>
-                      <element
+                      <div
                         className="card border-dark ml-3 mb-2"
                         style={{ width: "95%" }}
                       >
@@ -97,13 +97,13 @@ class ContactContent extends React.Component {
                           required
                           value={this.state.email}
                         />
-                      </element>
-                    </element>
-                    <element className="row form-group">
-                      <label for="contactInputMessage">
+                      </div>
+                    </div>
+                    <div className="row form-group">
+                      <label form="contactInputMessage">
                         <h5 style={{ marginLeft: "20px" }}>Your Message:</h5>
                       </label>
-                      <element
+                      <div
                         className="card border-dark ml-3 mb-3"
                         style={{ width: "95%", height: "8rem" }}
                       >
@@ -116,9 +116,9 @@ class ContactContent extends React.Component {
                           value={this.state.feedback}
                           rows="10"
                         ></textarea>
-                      </element>
-                    </element>
-                    <element className="row d-flex justify-content-center">
+                      </div>
+                    </div>
+                    <div className="row d-flex justify-content-center">
                       <button
                         type="submit"
                         className="btn btn-dark btn-lg ml-3"
@@ -126,9 +126,9 @@ class ContactContent extends React.Component {
                       >
                         Submit
                       </button>
-                    </element>
+                    </div>
                   </div>
-                </element>
+                </div>
               </div>
             </form>
           </content>
