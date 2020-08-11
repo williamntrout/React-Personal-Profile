@@ -35,8 +35,8 @@ class ContactContent extends React.Component {
   render() {
     return (
       <div className="container">
-        <content className="row d-flex justify-content-center">
-          <content className="col-10 col-md-10 col-sm-12 col-xs-12">
+        <div className="row d-flex justify-content-center">
+          <div className="col-10 col-md-10 col-sm-12 col-xs-12">
             <form
               className="ui form"
               id={this.props.id}
@@ -82,7 +82,7 @@ class ContactContent extends React.Component {
                       </div>
                     </div>
                     <div className="row form-group">
-                      <label form="contactEmailAddress">
+                      <label for="contactEmailAddress">
                         <h5 style={{ marginLeft: "20px" }}>Email Address:</h5>
                       </label>
                       <div
@@ -100,7 +100,7 @@ class ContactContent extends React.Component {
                       </div>
                     </div>
                     <div className="row form-group">
-                      <label form="contactInputMessage">
+                      <label for="contactInputMessage">
                         <h5 style={{ marginLeft: "20px" }}>Your Message:</h5>
                       </label>
                       <div
@@ -131,8 +131,8 @@ class ContactContent extends React.Component {
                 </div>
               </div>
             </form>
-          </content>
-        </content>
+          </div>
+        </div>
       </div>
     );
   }
