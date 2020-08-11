@@ -7,11 +7,11 @@ import passWordGeneratorPic from "../images/PassWordGenerator.png";
 import seattlePic from "../images/Seattle.jpg";
 
 const portDiv = {
-  height: "325px",
-  width: "310px",
-  maxWidth: "310px",
+  height: "400px",
+  width: "325px",
   float: "left",
 };
+
 function PortfolioContent() {
   return (
     <div className="container">
@@ -45,14 +45,7 @@ function PortfolioContent() {
                       className="card mr-5 ml-5 mb-5 border-dark"
                       style={portDiv}
                     >
-                      <a
-                        className="btn btn-dark btn-lrg"
-                        href="https://williamntrout.github.io/weatherdashboard/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Weather Dashboard
-                      </a>
+                      <h3 style={{ textAlign: "center" }}>Weather Dashboard</h3>
                       <img
                         src={weatherDashboardPic}
                         className="card-img-top image-fluid"
@@ -60,108 +53,132 @@ function PortfolioContent() {
                       />
                       <div className="card-body">
                         <p className="card-text">
-                          Basic web application built for className exorcise to
+                          Basic web application built for practice exorcise to
                           demonstrate the retrieval and use of Server Side API
                           data.{" "}
                         </p>
+                        <a
+                          type="button"
+                          className="btn btn-block btn-dark"
+                          href="https://williamntrout.github.io/weatherdashboard/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Go To App
+                        </a>
                       </div>
                     </div>
+
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
                       style={portDiv}
                     >
-                      <a
-                        className="btn btn-dark btn-lrg"
-                        href="https://williamntrout.github.io/JavasScriptQuizHomework/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Quiz Game
-                      </a>
+                      <h3 style={{ textAlign: "center" }}>Quiz Game</h3>
                       <img
                         src={quizGamePic}
                         className="card-img-top image-fluid"
-                        alt="Quiz Application"
+                        alt="Weather Dashboard Application"
                       />
                       <div className="card-body">
                         <p className="card-text">
-                          Web application built for BOOTCAMP className exorcise
-                          to demonstrate the use of WEB APIs.
+                          Web application built for BOOTCAMP class exorcise to
+                          demonstrate the use of WEB APIs.{" "}
                         </p>
+                        <a
+                          type="button"
+                          className="btn btn-block btn-dark"
+                          href="https://williamntrout.github.io/JavasScriptQuizHomework/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Go To App
+                        </a>
                       </div>
                     </div>
+
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
                       style={portDiv}
                     >
-                      <a
-                        className="btn btn-dark btn-lrg"
-                        href="https://williamntrout.github.io/workdayplanner/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Day Planner
-                      </a>
+                      <h3 style={{ textAlign: "center" }}>Work Day Planner</h3>
                       <img
                         src={workDayPlannerPic}
                         className="card-img-top image-fluid"
-                        alt="Workday Planner Application"
+                        alt="Weather Dashboard Application"
                       />
                       <div className="card-body">
                         <p className="card-text">
-                          Web application built for BOOTCAMP className exorcise
-                          to demonstrate the use of THIRD PARTY APIs.
+                          Web application built for BOOTCAMP exorcise to
+                          demonstrate the use of THIRD PARTY APIs.{" "}
                         </p>
+                        <a
+                          type="button"
+                          className="btn btn-block btn-dark"
+                          href="https://williamntrout.github.io/workdayplanner/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Go To App
+                        </a>
                       </div>
                     </div>
+
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
                       style={portDiv}
                     >
-                      <a
-                        className="btn btn-dark btn-lrg"
-                        href="https://williamntrout.github.io/project-1-refrigerator-companion/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Recipe Generator
-                      </a>
+                      <h3 style={{ textAlign: "center" }}>Recipe Generator</h3>
                       <img
                         src={recipeGeneratorPic}
                         className="card-img-top image-fluid"
-                        alt="Recipe Application"
+                        alt="Weather Dashboard Application"
                       />
                       <div className="card-body">
                         <p className="card-text">
                           Collaborative project, bringing together principles
-                          from BOOTSTRAP, JAVASCRIPT, and API usage.
+                          from BOOTSTRAP, JAVASCRIPT, and API usage.{" "}
                         </p>
+                        <a
+                          type="button"
+                          className="btn btn-block btn-dark"
+                          href="https://williamntrout.github.io/project-1-refrigerator-companion/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Go To App
+                        </a>
                       </div>
                     </div>
+
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
                       style={portDiv}
                     >
-                      <a
-                        className="btn btn-dark btn-lrg"
-                        href="https://williamntrout.github.io/Password_Generator_Javascript_Exorcise/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <h3 style={{ textAlign: "center" }}>
                         Password Generator
-                      </a>
+                      </h3>
                       <img
                         src={passWordGeneratorPic}
                         className="card-img-top image-fluid"
-                        alt="Password Generator Application"
+                        alt="Weather Dashboard Application"
                       />
                       <div className="card-body">
                         <p className="card-text">
-                          Web application built for className exorcise to
-                          demonstrate the principles of basic JAVASCRIPT.
+                          Web application from a class exorcise to demonstrate
+                          the principles of basic JAVASCRIPT.{" "}
                         </p>
+                        <a
+                          type="button"
+                          className="btn btn-block btn-dark"
+                          href="https://williamntrout.github.io/Password_Generator_Javascript_Exorcise/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Go To App
+                        </a>
                       </div>
                     </div>
+
                     <div
                       className="card mr-5 ml-5 mb-5 border-dark"
                       style={portDiv}
@@ -177,6 +194,9 @@ function PortfolioContent() {
                           housing for the worlds fair, proudly flies the 12 of
                           seattle flag to honor Seahawks' fans.
                         </p>
+                        <button type="button" class="btn btn-block btn-dark">
+                          Go To App
+                        </button>
                       </div>
                     </div>
                   </div>

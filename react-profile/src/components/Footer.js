@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer
       id="sticky-footer"
-      className="py-4 bg-dark text-white-50"
+      className="bg-dark text-white-50"
       style={{
         position: "fixed",
         left: "0px",
@@ -15,19 +15,19 @@ function Footer() {
       }}
     >
       <div
-        className="container d-flex"
+        className="container d-flex justify-content-center"
         style={{
-          color: "#ffffff",
           fontSize: "50px",
-          marginBottom: "30px",
-          marginRight: "10px",
-          justifyContent: "center",
         }}
       >
         <a
           href="https://github.com/williamntrout"
           target="_blank"
           rel="noopener noreferrer"
+          style={{
+            marginRight: "20px",
+            color: "#ebebeb",
+          }}
         >
           <i className="fab fa-github-square"></i>
         </a>
@@ -35,6 +35,10 @@ function Footer() {
           href="https://linkedin.com/in/williamntrout"
           target="_blank"
           rel="noopener noreferrer"
+          style={{
+            marginRight: "20px",
+            color: "#ebebeb",
+          }}
         >
           <i className="fab fa-linkedin"></i>
         </a>
