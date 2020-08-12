@@ -27,7 +27,9 @@ function ResumeContent() {
                   type="application/pdf"
                   width="800px"
                   height="450px"
-                >ResumePDF</object>
+                >
+                  ResumePDF
+                </object>
               </div>
             </div>
           </div>
